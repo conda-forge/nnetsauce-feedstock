@@ -31,7 +31,7 @@ requirements:
     - jax >=0.1.72      # [unix]
     - jaxlib >=0.1.51      # [unix]
     - joblib >=0.14.0
-    - six >= 1.16.0
+    - six >=1.16.0
     - threadpoolctl >=2.0.0
     - tqdm >=4.48.1
   run:
@@ -43,7 +43,7 @@ requirements:
     - jax >=0.1.72      # [unix]
     - jaxlib >=0.1.51      # [unix]
     - joblib >=0.14.0
-    - six >= 1.16.0
+    - six >=1.16.0
     - threadpoolctl >=2.0.0
     - tqdm >=4.48.1
     - {{ pin_compatible('numpy') }}
