@@ -15,6 +15,8 @@ Documentation: https://techtonique.github.io/nnetsauce/
 
 Randomized and quasi-randomized (neural) networks for Statistical/Machine Learning.
 
+(When developping, note to self: https://conda-forge.org/docs/maintainer/adding_pkgs.html#populating-the-hash-field)
+
 Current build status
 ====================
 
