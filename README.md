@@ -1,11 +1,11 @@
-About nnetsauce
-===============
+About nnetsauce-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nnetsauce-feedstock/blob/main/LICENSE.txt)
 
 Home: https://techtonique.github.io/nnetsauce/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nnetsauce-feedstock/blob/main/LICENSE.txt)
 
 Summary: Randomized and quasi-randomized networks
 
@@ -14,8 +14,6 @@ Development: https://github.com/Techtonique/nnetsauce
 Documentation: https://techtonique.github.io/nnetsauce/
 
 Randomized and quasi-randomized (neural) networks for Statistical/Machine Learning.
-
-(When developping, note to self: https://conda-forge.org/docs/maintainer/adding_pkgs.html#populating-the-hash-field)
 
 Current build status
 ====================
@@ -49,6 +47,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_64_python3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11570&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/nnetsauce-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11570&branchName=main">
@@ -74,6 +79,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11570&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/nnetsauce-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11570&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/nnetsauce-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
