@@ -58,7 +58,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: Randomized and quasi-randomized networks
+  summary: Randomized and quasi-randomized networks for Statistical/Machine Learning
   description: Randomized and quasi-randomized (neural) networks for Statistical/Machine Learning.
   doc_url: https://techtonique.github.io/nnetsauce/
   dev_url: https://github.com/Techtonique/nnetsauce
