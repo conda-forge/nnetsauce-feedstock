@@ -1,5 +1,5 @@
 {% set name = "nnetsauce" %}
-{% set version = "0.23.1" %}
+{% set version = "0.24.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Techtonique/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 9b3c83ac5ea700046d6d29ec3630dfdc907019edf0f1ae625a0ffa97b4e70581
+  sha256: 0bae56eb0f254b6a2eafc61efa5fc1caaa42304aa6e04ac771632f24d197d1ce
 
 build:
   number: 0
@@ -37,6 +37,7 @@ requirements:
     - threadpoolctl >=2.0.0
     - tqdm >=4.48.1
     - requests
+    - statsmodels
   run:
     - python
     - scipy >=0.19.0
@@ -51,6 +52,7 @@ requirements:
     - threadpoolctl >=2.0.0
     - tqdm >=4.48.1
     - requests
+    - statsmodels
     - {{ pin_compatible('numpy') }}
 
 test:
