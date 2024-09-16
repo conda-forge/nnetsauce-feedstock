@@ -38,6 +38,7 @@ requirements:
     - tqdm >=4.48.1
     - requests
     - statsmodels
+    - GPopt
   run:
     - python
     - scipy >=0.19.0
@@ -53,6 +54,7 @@ requirements:
     - tqdm >=4.48.1
     - requests
     - statsmodels
+    - GPopt
     - {{ pin_compatible('numpy') }}
 
 test:
