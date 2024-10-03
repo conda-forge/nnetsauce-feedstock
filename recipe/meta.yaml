@@ -1,5 +1,5 @@
 {% set name = "nnetsauce" %}
-{% set version = "0.24.4" %}
+{% set version = "0.25.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Techtonique/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 1af34c06d28ce8cd04aa1affb011d29721e874e221651fccffce4971f32bc998
+  sha256: e0fe6a38f69aa5735b409e684694658c8ee526480f17e0b67d0ba68a063713a9
 
 build:
   number: 0
